@@ -14,7 +14,7 @@
     - 이중포문을 쓰게되면 너무 느려지는게 아닐까? 효율성도 중요하니 
 '''
 
-str = input()
+str = upeer(input())
 s = set(str)
 
 for i in range(len(str)):
